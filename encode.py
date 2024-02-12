@@ -6,7 +6,7 @@ from PIL import ImageGrab, Image, ImageDraw
 import mss
 import platform
 
-message = "hello there" # Change this to encode a different message. Length limit 20 characters.
+message = "heyyyyyyyyyy" # Change this to encode a different message. Length limit 20 characters.
 
 # Gets unicode for each character 
 characters_as_ints = []
@@ -58,12 +58,12 @@ def create_image(widget):
     y=root.winfo_rooty()
     
     #Uncomment this section to get details about the upper left coordinate, height, and width of the window
-    """
+    
     width = widget.window_width()
     height = widget.window_height()
     print("width =", width, "height = ", height)
     print("x is: ", x , " y is: ", y)
-    """
+    
     x1=x+widget.window_width()
     y1=y+widget.window_height()
 
