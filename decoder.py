@@ -9,7 +9,7 @@ root.geometry("400x400")
 frame = tk.Frame(root)
 
 def decode():
-    global codedMessage, decodedMessage
+    global codedMessage, decodedMessage    
     codedMessage = entryBox.get()
     codedMessage = codedMessage.upper()
     print(codedMessage)
