@@ -62,10 +62,6 @@ class App(ctk.CTk):
                                         columnspan=4,
                                         padx=20, pady=20,
                                         sticky="ew")
-
-
-        self.displayBox = ctk.CTkTextbox(self, width=200, height=100)
-        self.displayBox.grid(row=3, column=0, columnspan=4, padx=20, pady=20, sticky="nsew")
  
  
 if __name__ == "__main__":
