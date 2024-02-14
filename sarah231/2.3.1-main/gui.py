@@ -1,6 +1,8 @@
  
 # Import customtkinter module
 import customtkinter as ctk
+import encoder
+import decoder
  
 # Sets the appearance mode of the application
 # "System" sets the appearance same as that of the system
@@ -62,6 +64,10 @@ class App(ctk.CTk):
                                         columnspan=4,
                                         padx=20, pady=20,
                                         sticky="ew")
+
+        # fghghg
+        encdoded_msg = encoder_test.encoder_vowel("jaziristhebest")
+        decoder_test.decode_vowel(encdoded_msg)
  
  
 if __name__ == "__main__":
