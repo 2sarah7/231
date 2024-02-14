@@ -1,4 +1,4 @@
-import tkinter as tk
+import customtkinter as tk
 
 codedMessage = ""
 decodedMessage = ""
