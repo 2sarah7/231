@@ -42,7 +42,10 @@ class encoder:
             for i in range(amount_letters_between):
                 random_letter = lambda x : random.randint(0,(len(x) - 1))
                 encoded_message += abcs[random_letter(abcs)]
-            encoded_message += keys[random_letter(keys)]
+            try: 
+                encoded_message += keys[random_letter(keys)]
+            except:
+                encoded_message += keys[1]
             encoded_message += list_message.pop(0)
         print(encoded_message)
         return encoded_message
