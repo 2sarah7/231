@@ -1,3 +1,5 @@
+# You can run this program either by running this file so you can encrypt and decrypt in the terminal, or run gui.py if you prefer do it in a GUI. Both ways work the same.
+
 import encoder
 import decoder
 
