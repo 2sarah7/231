@@ -90,7 +90,7 @@ class App(ctk.CTk):
                             sticky="ew")
     def encrypt_message(self):
             msg = self.encodeEntry.get()
-            encrypted_msg = encoder_test.encoder_vowel(msg)
+            encrypted_msg = encoder_test.encoder_vowel(msg.lower())
             self.encodeMessage.configure(text=encrypted_msg)
             print("Encrypted message:", encrypted_msg)
             
