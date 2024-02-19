@@ -11,5 +11,6 @@ encoded_message = encoder_test.encoder("working")
 
 decoder_test.decode_any(encoded_message,keys=key)
 
-encdoded_msg = encoder_test.encoder_vowel("jaziristhebest")
+message = input("What message do you want to encode? ")
+encdoded_msg = encoder_test.encoder_vowel(message)
 decoder_test.decode_vowel(encdoded_msg)
